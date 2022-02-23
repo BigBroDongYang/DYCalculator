@@ -1,0 +1,37 @@
+PODS:
+  - DYCalculator (1.0.0):
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - DYCalculator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  DYCalculator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYCalculator: 6d5aa095eccfbb0ba3431339be7c7ee2e134e2ee
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 14d40f21f7cd91dabb19cef12ebfa75b3c2edd4b
+
+COCOAPODS: 1.11.2
