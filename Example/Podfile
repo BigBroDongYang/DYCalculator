@@ -5,9 +5,4 @@ platform :ios, '10.0'
 target 'DYCalculator_Example' do
   pod 'DYCalculator', :path => '../'
 
-  target 'DYCalculator_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

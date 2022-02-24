@@ -7,13 +7,19 @@
 //
 
 import UIKit
-
+import DYCalculator
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        cal()
     }
+    
+    func cal() {
+//        let cc = DYCC.init(frame: UIScreen.main.bounds)
+//        view.addSubview(cc)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
